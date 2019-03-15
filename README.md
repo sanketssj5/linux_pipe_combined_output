@@ -10,6 +10,7 @@ Ex: command 1 | command 2 | command 3
 
 I have implemented the pipe functionality in cpp with one additional feature.
 The new feature works as follow:
+
 consider an example: command1 | (command2) (command3) | command4
 here, output of command1 will be provides to command2 and command3 and now the
 combined output of command2 and command3 will be provided to command4.
